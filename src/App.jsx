@@ -9,6 +9,8 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import Read from "./Read"
+// import Write from "./Write"
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route exact path='/pricing' element={<Pricing />} />
           <Route exact path='/journal' element={<Blog />} />
           <Route exact path='/contact' element={<Contact />} />
+          <Route exact path='/read' element={<Read/>} />
+          
         </Routes>
         <Footer />
       </Router>
