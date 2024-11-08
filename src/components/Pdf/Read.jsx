@@ -1,7 +1,10 @@
 import { useState } from 'react';
-import app from '../src/firebaseConfig';
+import app from '../../firebaseConfig';
 import { getDatabase, ref, get } from 'firebase/database';
 import { getStorage, ref as storageRef, getDownloadURL } from 'firebase/storage';
+import './Read.css';
+import '../common/header/Header.css'
+
 
 function Read() {
   const [data, setData] = useState({});
@@ -36,7 +39,11 @@ const fetchPdf = async () => {
 };
 
   return (
+    
     <div>
+      <div className='container1'>
+        <img src="../../../public/images/girlimage.jpg" alt="" />
+      </div>
       <button onClick={displayData}>Display Data</button>
       <ul>
         {Object.entries(data).map(([key, value], index) => (

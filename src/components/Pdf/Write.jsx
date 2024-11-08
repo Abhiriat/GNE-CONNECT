@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import app from '../src/firebaseConfig'
+import app from '../../firebaseConfig'
 import {getDatabase,ref,set,push} from "firebase/database"
 function Write() {
     let [inputvalue1,setinputvalue1]= useState("");
