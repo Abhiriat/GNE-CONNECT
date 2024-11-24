@@ -20,6 +20,43 @@
   margin: 0;
   padding: 0;
 }
+
+.button{
+  margin-top: 50px;
+}
+
+.primary-btn {
+  margin-right: 30px;
+  padding-left: 40px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #1687d9;;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #fff;;
+}
+
+.secondary-btn {
+  padding-left: 40px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background-color: #1687d9;;;
+}
+
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;

@@ -1,6 +1,7 @@
 .newletter {
-  background-color: #1eb2a6;
+  background-color: #1687d9;;
   padding: 50px 0;
+  margin-top: 100px;
   color: #fff;
 }
 .newletter .right,
@@ -27,7 +28,7 @@
 }
 .newletter i {
   padding: 12px;
-  color: #1eb2a6;
+  color: #1687d9;;
   background-color: #fff;
 }
 footer {
@@ -44,7 +45,7 @@ footer .container {
   }
 }
 footer .logo span {
-  color: #1eb2a6;
+  color: #1687d9;;
   font-size: 14px;
 }
 footer .logo p {
@@ -52,7 +53,7 @@ footer .logo p {
   margin: 30px 0 15px 0;
 }
 footer .logo .icon {
-  background-color: #1eb2a6;
+  background-color: #1687d9;;
   color: white;
   margin-right: 10px;
 }
@@ -65,7 +66,7 @@ footer ul li {
 }
 footer .link li::before {
   content: "⟶";
-  color: #1eb2a6;
+  color: #1687d9;;
   margin-right: 5px;
 }
 footer .items {
@@ -81,7 +82,7 @@ footer .items img {
 footer .items span,
 footer .items i {
   font-size: 12px;
-  color: #1eb2a6;
+  color: #1687d9;;
   margin-right: 5px;
   text-transform: capitalize;
 }
@@ -96,7 +97,7 @@ footer .last ul li {
 footer .last i {
   width: 60px;
   font-size: 20px;
-  color: #1eb2a6;
+  color: #1687d9;;
 }
 .legal {
   text-align: center;
@@ -108,5 +109,5 @@ footer .last i {
   font-size: 15px;
 }
 .legal i {
-  color: #1eb2a6;
+  color: #1687d9;;
 }

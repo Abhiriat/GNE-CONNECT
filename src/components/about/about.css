@@ -37,7 +37,7 @@
   color: #999999;
 }
 .aboutHome .item:hover {
-  background-color: #1eb2a6;
+  background-color: #1687d9;;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
@@ -53,6 +53,8 @@
   background-position: center;
   height: 30vh;
   color: #fff;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 .awrapper .box {
   padding: 70px 0;

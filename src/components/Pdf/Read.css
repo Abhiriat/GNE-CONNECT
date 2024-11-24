@@ -1,6 +1,6 @@
 
 button {
-    background-color: #00bfa5; /* Update color to match the theme */
+    background-color: #1687d9;; /* Update color to match the theme */
     color: white;
     padding: 10px 16px;
     border: none;
@@ -14,7 +14,7 @@ button {
   }
   
   button:hover {
-    background-color: #00897b; /* Slightly darker on hover */
+    background-color: #166196;; /* Slightly darker on hover */
   }
   
   button:focus {
