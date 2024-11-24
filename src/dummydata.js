@@ -2,7 +2,7 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Videos",
+    title: "Online Courses",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
@@ -14,7 +14,7 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert Teachers",
+    title: "Learn with Expert",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]
@@ -187,6 +187,7 @@ export const online = [
     hoverCover: "./images/courses/online/o3.1.png",
     courseName: "Computer Science",
     course: "10 Courses",
+    readlink:'/read'
   },
   {
     cover: "./images/courses/online/o4.png",
@@ -245,33 +246,46 @@ export const online = [
 ]
 export const team = [
   {
-    cover: "./images/testo/mypic.jpg",
-    name: "Abhishek Singh",
+    cover: "./images/team/t1.webp",
+    name: "Ph.D Adrian Molises",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    linkedin: "https://www.linkedin.com/in/abhishek-singh",
-    instagram: "https://www.instagram.com/abhi_riat28",
-    github: "https://github.com/Abhiriat",
   },
   {
-    cover: "./images/testo/jaggipic.jpg",
-    name: "Jagjot Singh",
+    cover: "./images/team/t2.webp",
+    name: "Ph.D Arthur MaGregor",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    linkedin: "https://www.linkedin.com/in/jagjot-singh-5799ba224/",
-    instagram: "https://www.instagram.com/jot_2287",
-    github: "https://github.com/jagjotsingh7935",
   },
   {
-    cover: "./images/testo/anshpic.jpg",
-    name: "Ansh Kumar",
+    cover: "./images/team/t3.webp",
+    name: "Ph.D Anna Hanzen",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
-    linkedin: "https://www.linkedin.com/in/anshhhhh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    instagram: "https://www.instagram.com/anshiii.oyee/",
-    github: "https://github.com/Ansssh",
   },
-];
-
- 
-
+  {
+    cover: "./images/team/t4.webp",
+    name: "Ph.D Brian Wooden",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t5.webp",
+    name: "Ph.D Adrian Molises",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t6.webp",
+    name: "Ph.D Arthur MaGregor",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t7.webp",
+    name: "Ph.D Anna Hanzen",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t8.webp",
+    name: "Ph.D Brian Wooden",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+]
 export const price = [
   {
     name: "BASIC PLAN",
@@ -386,17 +400,16 @@ export const testimonal = [
   },
   {
     id: 2,
-    name: "Jagjot Singh",
-    post: "Developer",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/jaggipic.jpg",
-  },
-  {
-    id: 3,
     name: "Ansh Kumar",
     post: "Developer",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/anshpic.jpg",
   },
-  
+  {
+    id: 3,
+    name: "Jagjot Singh",
+    post: "Developer",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "./images/testo/jaggipic.jpg",
+  },
 ]
