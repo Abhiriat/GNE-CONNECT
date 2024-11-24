@@ -1,24 +1,24 @@
-import React from "react"
-import { testimonal } from "../../../dummydata"
-import Heading from "../../common/heading/Heading"
-import "./style.css"
+
+import { testimonial } from "../../../dummydata"; // Corrected import name
+import Heading from "../../common/heading/Heading";
+import "./style.css";
 
 const Testimonal = () => {
   return (
     <>
-      <section className='testimonal padding'>
-        <div className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
+      <section className="testimonal padding">
+        <div className="container">
+          <Heading subtitle="TESTIMONIAL" title="Our Successful Students" />
 
-          <div className='content grid2'>
-            {testimonal.map((val) => (
-              <div className='items shadow'>
-                <div className='box flex'>
-                  <div className='img'>
-                    <img src={val.cover} alt='' />
-                    <i className='fa fa-quote-left icon'></i>
+          <div className="content grid2">
+            {testimonial.map((val, index) => (
+              <div className="items shadow" key={val.id || index}> {/* Key added */}
+                <div className="box flex">
+                  <div className="img">
+                    <img src={val.cover} alt="" />
+                    <i className="fa fa-quote-left icon"></i>
                   </div>
-                  <div className='name'>
+                  <div className="name">
                     <h2>{val.name}</h2>
                     <span>{val.post}</span>
                   </div>
@@ -30,7 +30,7 @@ const Testimonal = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Testimonal
+export default Testimonal;

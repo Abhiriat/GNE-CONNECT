@@ -23,30 +23,30 @@ const Header = () => {
             className={click ? "mobile-nav" : "flexSB "}
             onClick={() => setClick(false)}
           >
-            <li>
+            <li id="list1">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li id="list1">
               <Link to="/courses">All Courses</Link>
             </li>
-            <li>
+            <li id="list1">
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li id="list1">
               <Link to="/team">Team</Link>
             </li>
 
-            <li>
+            <li id="list1">
               <Link to="/journal">Journal</Link>
             </li>
-            <li>
+            <li id="list1">
               <Link to="/contact">Contact</Link>
             </li>
             {isAuthenticated ? (
-              <li>
+              <li style={{backgroundColor:"#1687d9"}}>
                 <Link
                   style={{
-                    backgroundColor: isHovered ? "#17a69e" : "#1EB2A6",
+                    backgroundColor: isHovered ? "#1687d9" : "#1687d9",
                     padding: "10px 30px",
                     borderRadius: "5px",
                     color: "white",
@@ -64,10 +64,10 @@ const Header = () => {
                 </Link>
               </li>
             ) : (
-              <li>
+              <li style={{backgroundColor:"#1687d9"}}>
                 <Link
                   style={{
-                    backgroundColor: isHovered ? "#148680" : "#1EB2A6",
+                    backgroundColor: isHovered ? "#1687d9" : "#1687d9",
                     padding: "10px 30px",
                     borderRadius: "5px",
                     color: "white",

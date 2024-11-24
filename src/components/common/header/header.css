@@ -23,21 +23,36 @@ header .nav {
   display: flex !important;
 }
 header li {
-  margin-right: 40px;
+  margin-right: 40px;  
+  
 }
 header ul {
   padding: 30px 20px;
 }
-header ul li a {
+header ul li a {  /* Styles for desktop/large screens */
   color: #fff;
   font-weight: 500;
-  transition: 0.5s;
+  transition: 0.2s;
 }
-header ul li a:hover {
-  color: #1687d9;;
+header ul li a:hover{
+  color: #1687d9;
 }
+
+#list1{
+  background-color: #1687d9;
+}
+#list1:focus{
+  border: none;
+
+}
+#list1:hover{
+  
+  background-color: white;
+}
+
+
 .start {
-  background-color: #1687d9;;
+  background-color: #1687d9;
   padding: 30px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
@@ -46,13 +61,13 @@ header ul li a:hover {
   display: none;
 }
 /*--------header------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {  /* Styles for mobile/smaller screens */
   .start {
     clip-path: none;
   }
   header {
     margin: 0;
-    background-color: #1687d9;;
+    background-color: #1687d9;
     position: relative;
   }
   header ul.flexSB {
@@ -61,6 +76,19 @@ header ul li a:hover {
   header ul li {
     margin-bottom: 20px;
   }
+  header ul li a { /* Specific mobile list item styles */
+    display: block; /* Make the link fill the list item width */
+    background-color: #1687d9;
+    color: white;
+    padding: 10px 15px; /* Add padding for better look */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    transition: 0.3s; /* Smoother transitions */
+  }
+  header ul li a:hover {
+    background-color: white;
+    color: #1687d9;
+  }
+
   .toggle {
     display: block;
     background: none;
@@ -75,6 +103,6 @@ header ul li a:hover {
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #1687d9;;
+    background-color: #1687d9;
   }
 }

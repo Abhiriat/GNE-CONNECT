@@ -14,6 +14,7 @@ const AboutCard = () => {
           <div className="right row">
             <Heading subtitle="LEARN ANYTHING" title="Benefits About Online Learning Expertise" />
             <div className="items">
+              
               {homeAbout.map((val) => {
                 return (
                   <div className="item flexSB" key={val.id}> {/* Add key prop */}
