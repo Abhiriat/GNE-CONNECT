@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Router>
+      <Route exact path='/read' element={<Read/>} />
         <Header />
         <Routes>
           <Route exact path='/' element={<Home />} />
