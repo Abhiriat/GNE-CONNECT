@@ -187,6 +187,7 @@ export const online = [
     hoverCover: "./images/courses/online/o3.1.png",
     courseName: "Computer Science",
     course: "10 Courses",
+    readlink:'/read'
   },
   {
     cover: "./images/courses/online/o4.png",
