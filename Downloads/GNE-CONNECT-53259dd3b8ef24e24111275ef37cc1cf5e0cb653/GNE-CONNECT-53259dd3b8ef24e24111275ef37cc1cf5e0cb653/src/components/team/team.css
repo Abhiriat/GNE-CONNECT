@@ -1,0 +1,110 @@
+.team .container.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px; /* Gap between grid items */
+  max-width: 1200px; /* Set maximum width for the container */
+
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.team .items {
+  transition: 0.5s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 550px;
+}
+
+.team .img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* .team img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+} */
+
+.team .img img {
+  width: 100%; /* Ensures the image spans the container width */
+  height: 400px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Ensures the image scales properly within the container */
+  border-radius: 10px; /* Keep the rounded corners */
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  opacity: 0;
+  z-index: 11;
+  transition: opacity 0.5s ease;
+}
+
+.overlay a {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.overlay a:hover {
+  background-color: #0c5a92;
+  transform: scale(1.1);
+}
+
+.team .details {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.team .details h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.team .details p {
+  font-size: 14px;
+  color: grey;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+}
+
+.team .items:hover {
+  background-color: #1687d9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.team .items:hover .details h2 {
+  color: #fff;
+}
+
+.team .items:hover .details p {
+  color: #fff;
+}
+
+.team .items:hover .overlay {
+  opacity: 1;
+}
