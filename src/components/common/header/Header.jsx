@@ -85,7 +85,7 @@ const Header = () => {
           <div className="start">
             {isAuthenticated && (
               <div className="button">
-                <p>Welcome {user.name} !!</p>{" "}
+                <p id="welcometext">Welcome {user.name} !!</p>{" "}
               </div>
             )}
           </div>

@@ -10,12 +10,22 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
 import Read from "../src/components/Pdf/Read";
+import Dsa from "../src/components/Pdf/Dsa";
+import Os from "../src/components/Pdf/Os";
+import Toc from "../src/components/Pdf/Toc";
+import Web from "../src/components/Pdf/Web";
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/read" element={<Read />} /> {/* Read route without header/footer */}
+        <Route path="/read" element={<Read />} />
+        <Route path="/dsa" element={<Dsa/>} />
+        <Route path="/os" element={<Os/>} />
+        <Route path="/toc" element={<Toc/>} />
+        <Route path="/wt" element={<Web/>} /> 
+        
         <Route path="/*" element={
           <>  {/* All other routes get header/footer */}
             <Header />

@@ -18,7 +18,7 @@ const OnlineCourses = () => {
                   <img src={val.hoverCover} alt={`${val.courseName} Hover`} className='show' />
                 </div>
                 <h1>{val.courseName}</h1>
-                <span>{val.course}</span>
+                
                 <Link to={val.readlink}>Read More</Link> {/* Add the link */}
               </div>
             ))}

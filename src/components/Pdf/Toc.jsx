@@ -14,7 +14,7 @@ function Read() {
     setError(null); // Clear previous errors
     try {
       const storage = getStorage(app);
-      const pdfFolderRef = storageRef(storage, 'dccn'); // Specify the 'dccn' folder
+      const pdfFolderRef = storageRef(storage, 'toc'); // Specify the 'dccn' folder
   
       const fileList = await listAll(pdfFolderRef); // Get all files in the folder
       const pdfDetails = await Promise.all(

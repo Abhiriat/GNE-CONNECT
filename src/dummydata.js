@@ -176,121 +176,111 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    cover: "./images/courses/online/o1.png",
+    cover: "./images/courses/online/os.png",
     hoverCover: "./images/courses/online/o1.1.png",
-    courseName: "UI/UX Design Courses",
+    courseName: "Operating System",
     course: "25 Courses",
+    readlink:'/os'
   },
   {
     cover: "./images/courses/online/o2.png",
     hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Art & Design",
+    courseName: "DSA",
     course: "25 Courses",
+    readlink:'/dsa'
   },
   {
     cover: "./images/courses/online/o3.png",
     hoverCover: "./images/courses/online/o3.1.png",
-    courseName: "Computer Science",
+    courseName: "DCCN",
     course: "10 Courses",
     readlink:'/read'
   },
   {
     cover: "./images/courses/online/o4.png",
     hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "History & Archeologic",
+    courseName: "Theory of Computation",
     course: "15 Courses",
+    readlink:'/toc'
   },
   {
     cover: "./images/courses/online/o5.png",
     hoverCover: "./images/courses/online/o5.1.png",
-    courseName: "Software Engineering",
+    courseName: "DBMS",
     course: "30 Courses",
   },
   {
     cover: "./images/courses/online/o6.png",
     hoverCover: "./images/courses/online/o6.1.png",
-    courseName: "Information Software",
+    courseName: "Probability and Statistics",
     course: "60 Courses",
   },
   {
     cover: "./images/courses/online/o7.png",
     hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Health & Fitness",
+    courseName: "Python Programming",
     course: "10 Courses",
   },
   {
     cover: "./images/courses/online/o8.png",
     hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Marketing",
+    courseName: "DCLD",
     course: "30 Courses",
   },
   {
     cover: "./images/courses/online/o9.png",
     hoverCover: "./images/courses/online/o9.1.png",
-    courseName: "Graphic Design",
+    courseName: "OOPS",
     course: "80 Courses",
   },
   {
     cover: "./images/courses/online/o10.png",
     hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Music",
+    courseName: "Machine Learning",
     course: "120 Courses",
   },
   {
     cover: "./images/courses/online/o11.png",
     hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
+    courseName: "Java Programming",
     course: "17 Courses",
   },
   {
     cover: "./images/courses/online/o12.png",
     hoverCover: "./images/courses/online/o12.1.png",
-    courseName: "Web Management",
+    courseName: "Web Technology",
     course: "17 Courses",
+    readlink:'/wt'
   },
 ]
-export const team = [
-  {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+
+  export const team = [
+    {
+      cover: "./images/testo/mypic.jpg",
+      name: "Abhishek Singh",
+      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      linkedin: "https://www.linkedin.com/in/abhishek-singh",
+      instagram: "https://www.instagram.com/abhi_riat28",
+      github: "https://github.com/Abhiriat",
+    },
+    {
+      cover: "./images/testo/jaggipic.jpg",
+      name: "Jagjot Singh",
+      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      linkedin: "https://www.linkedin.com/in/jagjot-singh-5799ba224/",
+      instagram: "https://www.instagram.com/jot_2287",
+      github: "https://github.com/jagjotsingh7935",
+    },
+    {
+      cover: "./images/testo/anshpic.jpg",
+      name: "Ansh Kumar",
+      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      linkedin: "https://www.linkedin.com/in/anshhhhh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/anshiii.oyee/",
+      github: "https://github.com/Ansssh",
   },
-  {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-]
+  ];
+
 export const price = [
   {
     name: "BASIC PLAN",
